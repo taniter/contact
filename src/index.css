@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.link-item:hover > div{
+  color: green;
+}
+.link-item > div{
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.link-item, .info{
+  border:1px solid #000 !important;
+}
+.info > div{
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body{
+  background-color: rgb(24, 24, 24);
+}
