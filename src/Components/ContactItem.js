@@ -8,7 +8,7 @@ class ContactItem extends Component {
 
     render() {
         const data = this.props.data;
-        const src = "https://github.com/taniter/contact/blob/master/public/img/" + data.app + ".png?raw=true";
+        const src = "https://github.com/taniter/contact/blob/master/public/img/" + data.app.toLocaleLowerCase() + ".png?raw=true";
         return (
             <a href={data.link} className="w-100 link-item">
                 <div className="media p-2">
