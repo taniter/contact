@@ -10,11 +10,11 @@ class App extends Component {
   }
 
   componentWillMount() {
-    const pathName = window.location.pathname.substr(1, window.location.pathname.length);
-    if (pathName)
+    // const pathName = window.location.pathname.substr(1, window.location.pathname.length);
+    // if (pathName)
       contactDB.on('value', (value) => {
         value.forEach(item => {
-          if (item.val().user_account === pathName) {
+          if (item.val().user_account === 'taniter') {
             this.setState({
               user: item
             }, () => {
