@@ -31,8 +31,10 @@ code {
 body {
   background-color: rgb(24, 24, 24);
 }
-.fileUploader .fileContainer > img,
-p {
+.fileUploader .fileContainer > img,p {
+  display: none;
+}
+.fileUploader .fileContainer > p {
   display: none;
 }
 .fileContainer {
